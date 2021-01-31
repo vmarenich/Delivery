@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication1.Domain;
-using WebApplication1.Services;
+using DeliveryWebApi.Domain;
+using DeliveryWebApi.Services;
 
-namespace WebApplication1.Controllers
+namespace DeliveryWebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -1,4 +1,4 @@
-namespace WebApplication1.Domain
+namespace DeliveryWebApi.Domain
 {
     public abstract class EntityBase
     {

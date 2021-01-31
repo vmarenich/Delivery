@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace WebApplication1.DTO
+namespace DeliveryWebApi.DTO
 {
     [XmlRoot("xml")]
     public class Api3Request

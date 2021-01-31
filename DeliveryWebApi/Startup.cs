@@ -4,9 +4,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Unity;
-using WebApplication1.DAL;
-using WebApplication1.Domain;
-using WebApplication1.Services;
+using DeliveryWebApi.DAL;
+using DeliveryWebApi.Domain;
+using DeliveryWebApi.Services;
 
 namespace WebApplication1
 {

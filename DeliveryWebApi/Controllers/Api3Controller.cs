@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WebApplication1.DTO;
-using WebApplication1.Services;
+using DeliveryWebApi.DTO;
+using DeliveryWebApi.Services;
 
-namespace WebApplication1.Controllers
+namespace DeliveryWebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

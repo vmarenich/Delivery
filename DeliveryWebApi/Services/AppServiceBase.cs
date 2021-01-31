@@ -1,8 +1,8 @@
 ﻿using Unity;
-using WebApplication1.DAL;
-using WebApplication1.Domain;
+using DeliveryWebApi.DAL;
+using DeliveryWebApi.Domain;
 
-namespace WebApplication1.Services
+namespace DeliveryWebApi.Services
 {
     public abstract class AppServiceBase
     {

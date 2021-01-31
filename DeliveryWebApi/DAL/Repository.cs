@@ -1,9 +1,9 @@
 ﻿using System.Collections.Concurrent;
 using System.Linq;
 using System.Threading;
-using WebApplication1.Domain;
+using DeliveryWebApi.Domain;
 
-namespace WebApplication1.DAL
+namespace DeliveryWebApi.DAL
 {
     public class Repository<TEntity> : IRepository<TEntity>
         where TEntity : EntityBase

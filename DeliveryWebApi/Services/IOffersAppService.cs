@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using WebApplication1.Domain;
+using DeliveryWebApi.Domain;
 
-namespace WebApplication1.Services
+namespace DeliveryWebApi.Services
 {
     public interface IOffersAppService
     {

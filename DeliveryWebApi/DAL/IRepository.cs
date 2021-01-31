@@ -1,7 +1,7 @@
 ﻿using System.Linq;
-using WebApplication1.Domain;
+using DeliveryWebApi.Domain;
 
-namespace WebApplication1.DAL
+namespace DeliveryWebApi.DAL
 {
     public interface IRepository<TEntity>
         where TEntity : EntityBase

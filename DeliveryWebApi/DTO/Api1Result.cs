@@ -1,4 +1,4 @@
-﻿namespace WebApplication1.DTO
+﻿namespace DeliveryWebApi.DTO
 {
     public class Api1Result
     {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using Unity;
-using WebApplication1.Domain;
+using DeliveryWebApi.Domain;
 
-namespace WebApplication1.Services
+namespace DeliveryWebApi.Services
 {
     public class OffersAppService : AppServiceBase, IOffersAppService
     {
