@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Unity;
 using DeliveryWebApi.Domain;
+using Unity;
 
 namespace DeliveryWebApi.Services
 {
@@ -46,6 +46,7 @@ namespace DeliveryWebApi.Services
             if (entity == null)
             {
                 repository.Create(offer);
+                entity = offer;
             }
             else
             {

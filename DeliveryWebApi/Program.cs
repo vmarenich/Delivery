@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Unity.Microsoft.DependencyInjection;
 
-namespace WebApplication1
+namespace DeliveryWebApi
 {
     public class Program
     {

@@ -1,14 +1,14 @@
+using DeliveryWebApi.DAL;
+using DeliveryWebApi.Domain;
+using DeliveryWebApi.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Unity;
-using DeliveryWebApi.DAL;
-using DeliveryWebApi.Domain;
-using DeliveryWebApi.Services;
 
-namespace WebApplication1
+namespace DeliveryWebApi
 {
     public class Startup
     {
