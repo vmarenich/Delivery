@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryWebApi", "DeliveryWebApi\DeliveryWebApi.csproj", "{24E67207-70ED-46E8-945E-2880F7E64EFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliveryWebApi", "DeliveryWebApi\DeliveryWebApi.csproj", "{24E67207-70ED-46E8-945E-2880F7E64EFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryWepApi_Tests", "DeliveryWepApi_Tests\DeliveryWepApi_Tests.csproj", "{BA4DD3F9-A647-47DD-9250-C68DDA0FF95E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliveryWepApi_Tests", "DeliveryWepApi_Tests\DeliveryWepApi_Tests.csproj", "{BA4DD3F9-A647-47DD-9250-C68DDA0FF95E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{AA5D446E-423E-45C8-9A75-1755B8FE2F4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BA4DD3F9-A647-47DD-9250-C68DDA0FF95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA4DD3F9-A647-47DD-9250-C68DDA0FF95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA4DD3F9-A647-47DD-9250-C68DDA0FF95E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5D446E-423E-45C8-9A75-1755B8FE2F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5D446E-423E-45C8-9A75-1755B8FE2F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5D446E-423E-45C8-9A75-1755B8FE2F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5D446E-423E-45C8-9A75-1755B8FE2F4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
