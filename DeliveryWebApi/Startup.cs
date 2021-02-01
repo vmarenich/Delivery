@@ -27,6 +27,8 @@ namespace DeliveryWebApi
                 .AddControllersAsServices()
                 .AddXmlSerializerFormatters()
                 .AddXmlDataContractSerializerFormatters();
+
+            services.AddSwaggerGen();
         }
 
         // ReSharper disable once UnusedMember.Global
@@ -57,6 +59,13 @@ namespace DeliveryWebApi
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Delivery API v1");
+                });
 
             app.UseEndpoints(endpoints =>
             {
